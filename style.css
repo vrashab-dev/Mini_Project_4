@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #121212;
+}
+
+#Head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin: 20px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+h1 {
+  color: black;
+  background-color: yellow;
+}
+h2 {
+  color: orange;
+  align-self: center;
+}
+
+h3 {
+  color: orange;
+  position: absolute;
+  bottom: 1%;
+  right: 3%;
+  width: 150px;
+  text-align: left;
+}
+#rules {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#Warn {
+  color: red;
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  height: 100px;
+}
+
+.Form_div {
+  color: aliceblue;
+  text-align: center;
+  padding: 10px;
+}
+
+#label {
+  font-weight: bold;
+  color: aliceblue;
+  font-size: 25px;
+  text-indent: 5px;
+}
+
+#input {
+  width: 400px;
+  height: 50px;
+  border-radius: 5px;
+  border-color: whitesmoke;
+  background-color: black;
+  box-shadow: 0 6px 10px 0 rgba(156, 154, 154, 0.19),
+    0 8px 22px 0 rgba(156, 154, 154, 0.19);
+  box-sizing: content-box;
+}
+
+input:focus {
+  font-weight: bold;
+  color: aliceblue;
+  font-size: 15px;
+  text-indent: 5px;
+}
+
+input::placeholder {
+  font-weight: bold;
+  color: aliceblue;
+}
+
+#Btn {
+  background-color: aqua;
+  width: 200px;
+  height: 30px;
+  border-radius: 6px;
+  font-weight: bold;
+  color: black;
+  font-size: 15px;
+  border-color: darkblue;
+}
+#Btn_end {
+  background-color: Red;
+  width: 175px;
+  height: 25px;
+  border-radius: 6px;
+  font-weight: bold;
+  color: black;
+  font-size: 15px;
+  border-color: darkblue;
+}
+
+#out {
+  padding-top: 100px;
+  color: darkkhaki;
+  text-align: center;
+  font-size: 25px;
+}
+#Remain {
+  color: aliceblue;
+}
+
+#LowHigh {
+  font-weight: bold;
+  color: Red;
+  font-size: 25px;
+  text-indent: 5px;
+  padding: 40px;
+}
+#arr {
+  background-color: burlywood;
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
